@@ -98,3 +98,13 @@ body{
 .chute{
     margin-top: 56px;
 }
+
+.input{
+    height: 40px;
+    width: 353px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 2px 2px 5px 0px #00000040;
+    border-radius: 3px;
+
+}
