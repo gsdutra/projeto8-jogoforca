@@ -102,14 +102,16 @@ export default function App(){
 							classe = {!letrasSelecionadas.includes(element)?"letras hover-anim":"letras letra-clicada"}
 							letra={element}
 							clicked={!letrasSelecionadas.includes(element)?chutarLetra:noFunction}
+							disabled = {!letrasSelecionadas.includes(element)?false:true}
 						/>
 						)
 					}
 				</div>
 				<Chute
-					valor={palavraChute}
-					changeValue={inputHabilitado? setChute:noFunction}
+					valor = {palavraChute}
+					changeValue = {inputHabilitado? setChute:noFunction}
 					funcaoChute = {inputHabilitado? chutarPalavra:noFunction}
+					disabled = {inputHabilitado? false:true}
 				/>
 			</div>
 		</>
