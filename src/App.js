@@ -93,6 +93,7 @@ export default function App(){
 				palavraEncripted = {palavraEncripted}
 				classe = {winLoseState}
 				escolherPalavra = {escolherPalavra}
+				palavra={palavra}
 			/>
 			<div className="bottom">
 				<div className="letras-container">
