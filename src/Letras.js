@@ -1,5 +1,5 @@
 export default function Letras(props){
     return(
-        <div className="letras hover-anim">{props.letra}</div>
+        <div className={props.classe} onClick={()=>props.clicked(props.letra)} >{props.letra.toLocaleUpperCase()}</div>
     )
 }
